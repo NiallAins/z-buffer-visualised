@@ -1,0 +1,26 @@
+body {
+    background: #222;
+}
+
+canvas {
+    position: fixed;
+    inset: 0;
+}
+
+div {
+    user-select: none;
+    width: fit-content;
+    position: relative;
+    z-index: 100;
+    color: white;
+    font-weight: bold;
+    font-family: "Courier New";
+}
+
+div:nth-child(3n) {
+    margin-bottom: 16px;
+}
+
+input {
+    cursor: pointer;
+}
